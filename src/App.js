@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import React from 'react'
+import image from './JPEG_bird.webp';
 import './App.css';
 
 function App() {
-  return (
+
+    return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={image} className="JPEG_bird.webg" alt="bird"/>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Beautiful Birds
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="http://digitalcommunications.wp.st-andrews.ac.uk/files/2019/04/JPEG_compression_Example.jpg"
+          target=""
+          rel=""
         >
-          Learn React
+          <button onClick={event => console.log(event)}>Click Me</button>
+          learn React
         </a>
       </header>
-    </div>
+      </div>
   );
 }
 
